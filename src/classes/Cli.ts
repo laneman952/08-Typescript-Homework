@@ -186,8 +186,8 @@ class Cli {
         parseInt(answers.year),
         parseInt(answers.weight),
         parseInt(answers.topSpeed),
+        [],
         parseInt(answers.towingCapacity),
-        []
       );
 
       this.vehicles.push(truck);
@@ -265,8 +265,7 @@ class Cli {
           parseInt(answers.year),
           parseInt(answers.weight),
           parseInt(answers.topSpeed),
-          parseInt(answers.wheelie),
-          []
+          [],
         )
 
         this.vehicles.push(motorbike);
